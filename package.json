@@ -20,7 +20,7 @@
     "main": "Gruntfile.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/yeoman/grunt-usemin-list.git"
+        "url": "git://github.com/jhicken/grunt-usemin-list.git"
     },
     "scripts": {
         "test": "grunt"
