@@ -7,12 +7,13 @@
  */
 
 'use strict';
+var path = require('path');
 
 module.exports = function(grunt) {
 
 
-    var HTMLProcessor = require('./htmlprocessor.js');
-    var path = require('path');
+    var HTMLProcessor = require('../lib/htmlprocessor.js');
+
 
     grunt.registerMultiTask('useminlist', 'Using HTML markup as the primary source of information', function() {
         var options = this.options();
