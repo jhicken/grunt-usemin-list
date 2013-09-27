@@ -1,6 +1,6 @@
 {
     "name": "grunt-usemin-list",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "This is based on grunt usemin. It will create a json file that includes all usemin blocks and src's. It also can extract the raw script blocks and extend there path.",
     "keywords": [
         "gruntplugin",
@@ -42,6 +42,6 @@
         "type": "GPL2"
     },
     "readmeFilename": "README.md",
-    "_id": "grunt-usemin-list@0.1.1",
-    "_from": "grunt-usemin-list@~0.1.1"
+    "_id": "grunt-usemin-list@0.1.2",
+    "_from": "grunt-usemin-list@~0.1.2"
 }
