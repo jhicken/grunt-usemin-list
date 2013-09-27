@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     var HTMLProcessor = require('./htmlprocessor.js');
     var path = require('path');
 
-    grunt.registerMultiTask('usemin-list', 'Using HTML markup as the primary source of information', function() {
+    grunt.registerMultiTask('useminlist', 'Using HTML markup as the primary source of information', function() {
         var options = this.options();
         // collect files
         var files = grunt.file.expand({
