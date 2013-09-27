@@ -1,5 +1,5 @@
 {
-    "name": "grunt-useminList",
+    "name": "grunt-usemin-list",
     "version": "0.1.0",
     "description": "This is based on grunt usemin. It will create a json file that includes all usemin blocks and src's. It also can extract the raw script blocks and extend there path.",
     "keywords": [
@@ -10,9 +10,9 @@
         "css",
         "optimize"
     ],
-    "homepage": "https://github.com/jhicken/grunt-useminList",
+    "homepage": "https://github.com/jhicken/grunt-usemin-list",
     "bugs": {
-        "url": "https://github.com/jhicken/grunt-useminList/issues"
+        "url": "https://github.com/jhicken/grunt-usemin-list/issues"
     },
     "author": {
         "name": "Jeff Hicken"
@@ -20,7 +20,7 @@
     "main": "Gruntfile.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/yeoman/grunt-useminList.git"
+        "url": "git://github.com/yeoman/grunt-usemin-list.git"
     },
     "scripts": {
         "test": "grunt"
@@ -42,6 +42,6 @@
         "type": "GPL2"
     },
     "readmeFilename": "README.md",
-    "_id": "grunt-useminList@0.1.0",
-    "_from": "grunt-useminList@~0.1.0"
+    "_id": "grunt-usemin-list@0.1.0",
+    "_from": "grunt-usemin-list@~0.1.0"
 }
