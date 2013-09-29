@@ -29,13 +29,13 @@ In your project's Gruntfile, add a section named `useminlist` to the data object
 ```js
 grunt.initConfig({
   useminlist: {
-    html: '<%= yeoman.app %>/index.html',
+    html: 'path/to/html/index.html',
     options: {
-      dest: '.tmp/list.json',
-      type: 'js',
-      log: false,
-      extraction:{
-        path: 'test/runnersrc/',
+      dest: 'path/to/output/json/list.json',
+      type: 'js', //this is the type of usemin block
+      log: false, //log to console
+      extraction:{  // extract html into there own templates
+        path: 'path/to/template/blocks/',
         templateType: 'html',
         srcAppend: '../app/'
       }
@@ -101,38 +101,12 @@ This will become
 This is a TODO:
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
-
-```js
-grunt.initConfig({
-  useminlist: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-})
-```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
 
-```js
-grunt.initConfig({
-  useminlist: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-})
-```
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
 
 ## Release History
 0.1.4 started project
