@@ -23,6 +23,7 @@ module.exports = function(grunt) {
         }, this.data);
         var dest = options.dest;
         var fileList = {};
+        var splitBy = process.platform === 'win32' ? '\\' : '/';
 
         files = files.map(function(filepath) {
             return {
@@ -37,7 +38,7 @@ module.exports = function(grunt) {
             });
             proc.blocks.forEach(function(block) {
                 if (block.type === options.type) {
-                    var key = block.dest.split('/');
+                    var key = block.dest.split(splitBy);
                     key = key[key.length-1].split('.')[0];
                     fileList[key]=block.src;
 
